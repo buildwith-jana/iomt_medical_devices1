@@ -1,0 +1,20 @@
+{
+  "model_type": "multiclass",
+  "feature_columns": [
+    "heart_rate",
+    "spo2",
+    "temperature",
+    "hour",
+    "minute",
+    "day_of_week",
+    "time_diff",
+    "hr_rolling_mean",
+    "hr_rolling_std",
+    "hr_rate_of_change"
+  ],
+  "classes": [
+    "attack",
+    "fault",
+    "normal"
+  ]
+}
